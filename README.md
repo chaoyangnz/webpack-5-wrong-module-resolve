@@ -4,7 +4,7 @@
 [![Node.js version][nodejs-badge]][nodejs]
 [![Build Status - GitHub Actions][gha-badge]][gha-ci]
 
-# node-library-template
+# webpack-5-wrong-module-resolve
 
 👩🏻‍💻 Developer Ready: An easy-to-start template to speed up building your NodeJS library.
 
@@ -34,8 +34,8 @@ Click the **[Use template][repo-template-action]** link (or the green button). N
 To clone the repository use the following commands:
 
 ```sh
-git clone https://github.com/chaoyangnz/node-library-template
-cd node-library-template
+git clone https://github.com/chaoyangnz/webpack-5-wrong-module-resolve
+cd webpack-5-wrong-module-resolve
 npm install
 ```
 
@@ -44,8 +44,8 @@ npm install
 Download and unzip current `master` branch or one of tags:
 
 ```sh
-wget https://github.com/chaoyangnz/node-library-template/archive/master.zip -O node-library-template.zip
-unzip node-library-template.zip && rm node-library-template.zip
+wget https://github.com/chaoyangnz/webpack-5-wrong-module-resolve/archive/master.zip -O webpack-5-wrong-module-resolve.zip
+unzip webpack-5-wrong-module-resolve.zip && rm webpack-5-wrong-module-resolve.zip
 ```
 
 ## Available Scripts
@@ -60,17 +60,17 @@ unzip node-library-template.zip && rm node-library-template.zip
 
 ## License
 
-Licensed under the MIT. See the [LICENSE](https://github.com/chaoyangnz/node-library-template/blob/master/LICENSE) file for details.
+Licensed under the MIT. See the [LICENSE](https://github.com/chaoyangnz/webpack-5-wrong-module-resolve/blob/master/LICENSE) file for details.
 
 [ts-badge]: https://img.shields.io/badge/TypeScript-4.2-blue.svg
 [nodejs-badge]: https://img.shields.io/badge/Node.js->=%2012.20-blue.svg
 [nodejs]: https://nodejs.org/dist/latest-v14.x/docs/api/
-[gha-badge]: https://github.com/chaoyangnz/node-library-template/workflows/build/badge.svg
-[gha-ci]: https://github.com/chaoyangnz/node-library-template/actions
+[gha-badge]: https://github.com/chaoyangnz/webpack-5-wrong-module-resolve/workflows/build/badge.svg
+[gha-ci]: https://github.com/chaoyangnz/webpack-5-wrong-module-resolve/actions
 [typescript]: https://www.typescriptlang.org/
 [typescript-4-2]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-2.html
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
-[license]: https://github.com/chaoyangnz/node-library-template/blob/master/LICENSE
+[license]: https://github.com/chaoyangnz/webpack-5-wrong-module-resolve/blob/master/LICENSE
 [sponsor-badge]: https://img.shields.io/badge/♥-Sponsor-fc0fb5.svg
 [sponsor]: https://github.com/sponsors/chaoyangnz
 [jest]: https://facebook.github.io/jest/
@@ -81,6 +81,6 @@ Licensed under the MIT. See the [LICENSE](https://github.com/chaoyangnz/node-lib
 [volta-tomdale]: https://twitter.com/tomdale/status/1162017336699838467?s=20
 [gh-actions]: https://github.com/features/actions
 [travis]: https://travis-ci.org
-[repo-template-action]: https://github.com/chaoyangnz/node-library-template/generate
-[npm-badge]: https://img.shields.io/npm/v/node-library-template
-[npm]: https://www.npmjs.com/package/node-library-template
+[repo-template-action]: https://github.com/chaoyangnz/webpack-5-wrong-module-resolve/generate
+[npm-badge]: https://img.shields.io/npm/v/webpack-5-wrong-module-resolve
+[npm]: https://www.npmjs.com/package/webpack-5-wrong-module-resolve

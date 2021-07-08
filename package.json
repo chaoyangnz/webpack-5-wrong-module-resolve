@@ -1,12 +1,12 @@
 {
-  "name": "node-library-template",
+  "name": "webpack-5-wrong-module-resolve",
   "version": "0.0.1",
-  "description": "node-library-template",
+  "description": "webpack-5-wrong-module-resolve",
   "author": "Chao Yang <chao@yang.to>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chaoyangnz/node-library-template"
+    "url": "https://github.com/chaoyangnz/webpack-5-wrong-module-resolve"
   },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -22,7 +22,7 @@
     "prerelease": "npm run build",
     "release": "npm login && bump --tag && npm publish",
     "postrelease": "git push && git push --tags",
-    "postinstall": "ts-node tools/rename.ts"
+    "postinstall": ""
   },
   "publishConfig": {
     "access": "public"
@@ -31,6 +31,7 @@
     "lib/**/*"
   ],
   "dependencies": {
+    "axios": "^0.21.1",
     "tslib": "~2.1.0"
   },
   "devDependencies": {
@@ -49,10 +50,15 @@
     "rimraf": "~3.0.2",
     "shelljs": "^0.8.4",
     "ts-jest": "~26.5.2",
+    "ts-loader": "^8.3.0",
     "ts-node": "^9.1.1",
+    "tsconfig-paths-webpack-plugin": "^3.5.1",
     "tsutils": "~3.20.0",
+    "box-node-sdk": "^1.36.0",
     "typescript": "~4.2.2",
-    "version-bump-prompt": "^6.1.0"
+    "version-bump-prompt": "^6.1.0",
+    "webpack": "^5.43.0",
+    "webpack-cli": "^4.7.2"
   },
   "engines": {
     "node": ">= 12.20 <15"

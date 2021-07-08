@@ -1,8 +1,8 @@
-import { helloWorld } from './index';
+import { query } from './index';
 
 describe('hello world', () => {
   it('should be working', () => {
-    helloWorld()
+    query()
     expect(true).toBeTruthy()
   })
 });
